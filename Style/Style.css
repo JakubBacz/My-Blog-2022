@@ -1,3 +1,5 @@
+@import url(shop.css);
+
 :root {
     --bg_light: #dbcccc;
     --bg_dark:#262626;
@@ -135,6 +137,7 @@ animation-name: blink;
     color: rgb(66, 114, 246);
     text-shadow: #262626 2px;
 }
+/*
 @media only screen and (max-width: 500px){
 body {
     overflow: hidden; }
@@ -338,3 +341,4 @@ body {
     border-radius: 50%;
     border: solid 3px white; }
 }
+  */
