@@ -1,0 +1,33 @@
+/* % blink */
+.blink {
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    animation-name: blink;
+    }
+@keyframes blink {
+    0% {opacity: 0;}
+    40% {opacity: 0;}
+    50% {opacity: 100;}
+    100% {opacity: 100;}
+}
+
+/* % write */
+.glowny .line-1{
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+.anim-typewriter{
+    animation: typewriter 3s steps(44) 1s 1 normal both,
+                blinkTextCursor 500ms steps(44) infinite normal;
+    animation-delay: 0.3s ;
+}
+@keyframes typewriter{
+    from{width: 0;}
+    to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+    from{border-right-color: transparent;}
+    to{border-right-color: transparent;}
+}
+    

@@ -45,3 +45,24 @@ input[type=submit]:hover {
 	font-weight: bold;
 
 }
+
+
+.contact__thumbnail {
+    margin-left: 150px;
+}
+.contact__thumbnail__text {
+    color: white;
+    font-size: 20px;
+    font: "Verdana";
+    line-height: 115px;
+    margin-left: 250px;
+    margin-top: -473px;
+}
+.contact__thumbnail img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 30px;
+}
+.cursor_text {
+    cursor:text ;
+}

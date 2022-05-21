@@ -1,0 +1,29 @@
+.menu {
+    overflow: hidden;
+    background-color: rgba(51, 51, 51, 0.558);
+    background: linear-gradient(50deg, rgba(0, 0, 0, 0.363), rgba(0, 85, 149, 0.494) );
+    padding-left: 40px;
+    backdrop-filter: blur(3px);
+    text-transform: capitalize;
+}
+.menu a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: active, 0.3s;
+    margin: 10px;
+    margin-left: 5px;
+}
+.menu a:hover {
+    background-color: rgba(221, 221, 221, 0.55);
+    color: black;
+    border-radius: 6px;
+} 
+.menu a.active {
+    background-color: var(--blue);
+    color: white;
+    border-radius: 6px;
+}

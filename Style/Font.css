@@ -1,0 +1,27 @@
+.glowny {
+    color: var(--blue); 
+    font-size: 65px;
+    font: "Archivo Black" ;
+    font-weight: bold;
+    position: relative;
+    margin-left: 250px;
+    margin-top: 100px;
+    text-transform: uppercase;
+    cursor: default;
+} 
+.glowny .two {
+    margin-left: -250px;
+    margin-top: -100px; 
+}
+.glowny img {
+    position: absolute;
+    margin-left: 580px;
+    margin-top: -80px;
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    border: solid 3px white;
+    -webkit-box-shadow: 20px 18px 37px -1px rgba(0, 0, 0, 0.72);
+    -moz-box-shadow: 20px 18px 37px -1px rgba(0, 0, 0, 0.72);
+    box-shadow: 20px 18px 37px -1px rgba(0, 0, 0, 0.488);
+}

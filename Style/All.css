@@ -1,0 +1,40 @@
+.container {
+    background-color: rgba(51, 51, 51, 0.558);
+    background: linear-gradient(50deg, rgba(99, 99, 99, 0.363), rgba(0, 85, 149, 0.494) );
+    border-radius: 20px;
+    margin-left: 110px;
+    margin-top: 80px;
+    height: 400px;
+    width: 600px;
+    position: relative;
+    cursor: default;
+    backdrop-filter: blur(2px);
+    color: white;
+    font-size: 20px;
+    font: "Verdana";
+    line-height: 40px;
+    text-align: justify;
+    padding: 45px;
+}
+.text_two .container { 
+    margin-left: 150px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    height: 665px;
+    width: 800px;
+    position: relative
+}
+.container .first{
+    color: white; 
+    font-size: 26px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+iframe {
+    margin-top: 30px;
+    border-radius: 20px;
+    width: 800px;
+    height: 480px; 
+}
