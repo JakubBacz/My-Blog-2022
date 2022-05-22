@@ -6,8 +6,10 @@
 @import url(Scroll.css);
 @import url(Link.css);
 @import url(All.css);
-@import url(Responsive.css);
 
+* {
+    box-sizing: border-box;
+}
 :root {
     --bg_light: #dbcccc;
     --bg_dark:#262626;
