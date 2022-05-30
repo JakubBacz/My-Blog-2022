@@ -22,3 +22,19 @@
 // if (theme === "light") {
 //     document.querySelector("body").classList.add("light");
 // }
+
+// ^ Contact Form
+
+// function sendEmail(){
+//     Email.send({
+//         Host : "smtp.gmail.com",
+//         Username : "",
+//         Password : "",
+//         To : 'discord.programowanie@gmail.com',
+//         From : "",
+//         Subject : "",
+//         Body : ""
+//     }).then(
+//         message => alert(message)
+//     );
+// }
