@@ -23,8 +23,16 @@
     margin-left: 150px;
     margin-top: 100px;
     margin-bottom: 200px;
-    height: 665px;
-    width: 800px;
+    height: 725px;
+    width: 1000px;
+    position: relative
+}
+.text_three .container { 
+    margin-left: 150px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    height: 725px;
+    width: 600px;
     position: relative
 }
 .container .first{
